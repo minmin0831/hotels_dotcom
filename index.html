@@ -1,12 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>hotels.com</title>
 </head>
+
 <body>
-  <div class="osano-cm-window" dir="ltr"></div>
+  <div>
+    <div class="top_priority">
+      <span class="info_icon">info_icon</span>
+      <div class="article">
+        <p>Your safety is our top priority.</p>
+        <p><a href="#">See our travel guidance on COVID-19</a></p>
+      </div>
+    </div>
+    <header class="header">
+      <nav class="navigation">
+        <span class="logo">
+          <a href="#">
+            <img src="" alt="">
+          </a>
+        </span>
+
+        <div class="menu">
+          <ul>
+            <li><button>country/language</button></li>
+            <li><button>currency</button></li>
+            <li><button>help</button></li>
+            <li><a href="">login</a></li>
+            <li><a href="">sign in</a></li>
+          </ul>
+        </div>
+
+        <div class="promotions">
+          <nav>
+            <ul>
+              <li><a href="">Deals</a></li>
+              <li><a href="">List your property</a></li>
+              <li><a href="">Hotels.com&trade; Rewards</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <main>
+          <div class="main_top">
+            <div class="background"></div>
+            <div class="searchbox_container">
+              <div class="searchbox_wrapper">
+                <h1>Where to?</h1>
+                <form name="" method="GET" action="">
+                  <div class="destination_wrapper">
+                    <div class="destination">
+                      <span class="search_icon">search_icon</span>
+                      <input name="destination" type="text" placeholder="e.g. Seoul" autocapitalize="off"
+                        autocomplete="off" autocorrect="off" spellcheck="false" value="">
+                    </div>
+                  </div>
+                  <div class="other_info">
+                    <!-- ::before 선만큼 얇은 공백 추가 -->
+                    <div class="datepickers">
+                      <div class="datepicker_checkin">
+                        <button class="checkin" type="button">
+                          <span>calendar_icon</span>
+                          <span class="text">
+                            <span class="checkin_text">Check-in</span>
+                            <span class="date_selected">Sun, May 1</span>
+                          </span>
+                        </button>
+                      </div>
+
+                      <div class="datepicker_checkout">
+                        <button class="checkout" type="button">
+                          <span>calendar_icon</span>
+                          <span class="text">
+                            <span class="checkout_text">Check-out</span>
+                            <span class="date_selected">Sun, May 14</span>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                    <!-- ::after -> 화살표 기호 추가 -->
+                    <div class="roompicker">
+                      <button class="room" type="button">
+                        <span>guest_icon</span>
+                        <span class="text">
+                          <span class="guests_text">Guests</span>
+                          <span class="room_guest">1 room, 2 guests</span>
+                        </span>
+                      </button>
+                    </div>
+                    <div class="search_button">
+                      <button class="hit_search" type="submit"></button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="main_contents">
+            <div class="contents_wrapper">
+              <!-- section1 -->
+              <section class="section1">
+                <h2>Why book with Hotels.com</h2>
+                <ul class="previleges">
+                  <li>
+                    <div class="previlege">
+                      <h3>Free cancellation</h3>
+                      <span>on most hotels*</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="previlige">
+                      <a href="#">
+                        <div class="texts">
+                          <h3>Our price guarantee</h3>
+                          <span>Fine out more</span>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="previlige">
+                      <a href="#">
+                        <div class="texts">
+                          <h3>Get a reward night</h3>
+                          <span>for every 10 nights you stay</span>
+                          <!-- ::after 클래스로 > 기호 추가 -->
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </section>
+
+              <!-- section2 -->
+              <!-- ::before 클래스로 section과 div 간의 margin 부여. -->
+              <section class="section2">
+                <h2>A snapshot of the world's most picture-perfect properties</h2>
+                <p>Check out some of our favourite unique stays</p>
+                <ul class="stays">
+                  <li class="itembox`"><a href="#">
+                      <span class="image_container">
+                        <img src="" alt="">
+                      </span>
+                      <h3>TreeHouse Villas</h3>
+                      <p>Thailand</p>
+                    </a></li>
+                  <li class="itembox`"><a href="#">
+                      <span class="image_container">
+                        <img src="" alt="">
+                      </span>
+                      <h3>Explore Patagonia</h3>
+                      <p>Chile</p>
+                    </a></li>
+                  <li class="itembox`"><a href="#">
+                      <span class="image_container">
+                        <img src="" alt="">
+                      </span>
+                      <h3>Grand Miramar</h3>
+                      <p>Mexico</p>
+                    </a></li>
+                  <li class="itembox`"><a href="#">
+                      <span class="image_container">
+                        <img src="" alt="">
+                      </span>
+                      <h3>Kakslauttanen Arctic Resort</h3>
+                      <p>Finland</p>
+                    </a></li>
+                  <!-- 이 아래는 숨겨져 있다가 마지막에 코딩한 see more 버튼 클릭하면 노출 -->
+                  <li class="itembox`"><a href="#">
+                      <span class="image_container">
+                        <img src="" alt="">
+                      </span>
+                      <h3>AQUA DOME</h3>
+                      <p>Austria</p>
+                    </a></li>
+                  <li class="itembox`"><a href="#">
+                      <span class="image_container">
+                        <img src="" alt="">
+                      </span>
+                      <h3>Mykonos Blu Crecotel</h3>
+                      <p>Greece</p>
+                    </a></li>
+                  <li class="itembox`"><a href="#">
+                      <span class="image_container">
+                        <img src="" alt="">
+                      </span>
+                      <h3>Hotel Fasano</h3>
+                      <p>Brazil</p>
+                    </a></li>
+                  <li class="itembox`"><a href="#">
+                      <span class="image_container">
+                        <img src="" alt="">
+                      </span>
+                      <h3>Hoshinoya Fuji</h3>
+                      <p>Japan</p>
+                    </a></li>
+                </ul>
+                <div class="seemore">
+
+                  <button class="seemore_button">SEE MORE
+                    <!-- ::after -->
+                  </button>
+                  <!-- SEE MORE 버튼을 누르면 두번째 row에 있는 컨텐츠가 노출되며, 버튼 텍스트는 SEE LESS로 변경. -->
+                </div>
+              </section>
+
+              <section class="section3">
+                <!-- ::before 클래스로 section과 div 간의 margin 부여. -->
+                <h2>Travel with confidence</h2>
+                <p>Many properties hava updated us about their enhanced health and safety measures. So, during your search, you may find details like:</p>
+                <ul class="safety_measures">
+                  <li class="measure">
+                    <!-- ::before -->
+                    <div class="contents">
+                      <h3>Official health standards</h3>
+                      <span>Properties adhering to corporate/organisational sanitisation guidelines.</span>
+                    </div>
+                  </li>
+                  <li class="measure">
+                    <!-- ::before -->
+                    <div class="contents">
+                      <h3>Social distancing</h3>
+                      <span>Contactless check-in and check-out along with other social distancing measures.</span>
+                    </div>
+                  </li>
+                  <li class="measure">
+                    <!-- ::before -->
+                    <div class="contents">
+                      <h3>Hygiene and sanitisation</h3>
+                      <span>The use of disinfectant and whether properties enforce a gap between stays.</span>
+                    </div>
+                  </li>
+                  <li class="measure">
+                    <!-- ::before -->
+                    <div class="contents">
+                      <h3>Essential at the property</h3>
+                      <span>Free hand sanitiser for guests and indivisually wrapped food options.</span>
+                    </div>
+                  </li>
+                </ul>
+              </section>
+
+              <section class="section4">
+                <!-- ::before 클래스로 section과 div 간의 margin 부여. -->
+                <div class="image">
+                  <div class="imagebox">
+                    <img src="" alt="">
+                    <div class="textarea">
+                      <p>*See terms and conditions</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="perks_image">
+                  <img src="" alt="">
+                </div>
+                <ul class="perks_text">
+                  <li>
+                    <!-- ::before -->
+                    <span>
+                      <span>
+                        <b>Unlock Secret Prices!</b>You could get 10% off
+                      </span>
+                    </span>
+                  </li>
+                  <li>
+                    <!-- ::before -->
+                    <span>
+                      <span>
+                        <b>Get 1 reward night*</b>for every 10 nights you stay
+                        <a href="">Find out more</a>
+                      </span>
+                    </span>
+                  </li>
+                  <li>
+                    <!-- ::before -->
+                    <span>
+                      <span>
+                        <b>Rack up rewards</b>in over 1,000,000 properties worldwide
+                      </span>
+                    </span>
+                  </li>
+                </ul>
+                <div class="buttons">
+                  <a href="#">JOIN NOW</a>
+                  <a href="#">SIGN IN</a>
+                </div>
+              </section>
+
+              <section class="section5">
+                <!-- ::before -->
+                <h2>We do more than just hotels...</h2>
+                <div class="contents">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <div>
+                          <span>
+                            <img src="" alt="">
+                            <!-- 6개의 이미지를 resort 이미지를 시작으로 아래 p 태그에 맞는 이미지 추가 -->
+                          </span>
+                        </div>
+                        <p>Resorts</p>
+                        <!-- 1. Resorts 2. Apartments 3. Hotels 4. Guest houses 5. Hostels 6. Ryokans -->
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+          </div>
+        </main>
+
+        <footer>
+          <div class="footer_container">
+            <ul class="footer_menu">
+              <!-- menu_content는 11개로 구성되며 처음 5개는 드랍다운 기능이 있고 그 아래 하위 메뉴가 추가 구성되어 있다. -->
+              <li class="menu_content">
+                <h2 class="button_container">
+                  <button>
+                    <span>Top destination</span>
+                  </button>
+                </h2>
+                <div class="submenu">
+                  <ul class="submenu_container">
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                    <li><a href="#">Hotels in Las Vegas</a></li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="submenu">
+                <ul class="submenu_container">
+                  <h2 class="button_container">
+                    <button>
+                      <span>Top countries & regions</span>
+                    </button>
+                  </h2>
+                  <div class="submenu">
+                    <ul class="submenu_container">
+                      <li><a href="#"></a></li>
+                    </ul>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="submenu">
+                <ul class="submenu_container">
+                  <h2 class="button_container">
+                    <button>
+                      <span>Top countries & regions</span>
+                    </button>
+                  </h2>
+                  <div class="submenu">
+                    <ul class="submenu_container">
+                      <li><a href="#"></a></li>
+                    </ul>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="submenu">
+                <ul class="submenu_container">
+                  <h2 class="button_container">
+                    <button>
+                      <span>Top countries & regions</span>
+                    </button>
+                  </h2>
+                  <div class="submenu">
+                    <ul class="submenu_container">
+                      <li><a href="#"></a></li>
+                    </ul>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="submenu">
+                <ul class="submenu_container">
+                  <h2 class="button_container">
+                    <button>
+                      <span>Top countries & regions</span>
+                    </button>
+                  </h2>
+                  <div class="submenu">
+                    <ul class="submenu_container">
+                      <li><a href="#"></a></li>
+                    </ul>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="submenu">
+                <a href="#"></a>
+              </li>
+
+              <li class="submenu">
+                <a href="#"></a>
+              </li>
+
+              <li class="submenu">
+                <a href="#"></a>
+              </li>
+
+              <li class="submenu">
+                <a href="#"></a>
+              </li>
+
+              <li class="submenu">
+                <a href="#"></a>
+              </li>
+
+              <li class="submenu">
+                <a href="#"></a>
+              </li>
+            
+          </div>
+        </footer>
+
+      </nav>
+    </header>
+  </div>
 </body>
+
 </html>
